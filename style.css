@@ -1,0 +1,41 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    background: #a05006fb;
+}
+
+
+p {
+    color: white;
+}
+
+a:link {
+    transition: all .5s linear 0;
+    color:hsl(36,50%,50%);
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    
+    color: hsl(36,100%,50%);
+}
+h1 {
+    color:white;
+    background-color:#050505fb;
+    border-style: solid;
+    border-width: 1px;
+    margin: 20px;
+    padding: 40px;
+}
+
+#idselector{
+    color: fuchsia;
+}
+
+.classselector{
+    color: turquoise;
+}
