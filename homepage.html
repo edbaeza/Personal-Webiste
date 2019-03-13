@@ -3,23 +3,45 @@
     <head>
         <title>Eric Baeza's Homepage</title>
         <link rel="stylesheet" type="text/css" href="style.css">
+
+        <script src="scripts.js"></script>
+
     </head>
-    <body>
+    <nav>
+            <div>
+                <button id="toggletheme" onclick="changeTheme()">
+                    Dark Mode
+                </button>
+            </div>
+    </nav>
+
+
+    <body id="body" class ="light_theme">
+        <script>
+            (function() {
+                init();
+            })();
+        </script>
+
         <h1>Welcome to my Homepage!</h1>
         <p>Introduction paragraph or something here</p>
         <a href="https://google.com">Google</a>
         
         <p>Visit my LinkedIn: 
             <a href="https://www.linkedin.com/in/eric-baeza-661809157/">
-                <img align="center" src = "images/In-Black-34px-R.png" alt = "LinkedIn logo">
+                <img id="linkedinlogo" align="center" src="images/In-Black-34px-R.png" alt="LinkedIn logo" title="My LinkedIn">
             </a> 
         </p>
         
         <p> Visit my GitHub: 
             <a href="https://github.com/edbaeza">
-                <img align="center" src = "images/GitHub-Mark-32px.png" alt = "Github logo" title="My Github">
+                <img id ="githublogo" align="center" src="images/GitHub-Mark-32px.png" alt="Github logo" title="My Github">
             </a>
         </p>
-        
+        <script>
+            (function() {
+                init2();
+            })();
+        </script>
     </body>
 </html>
